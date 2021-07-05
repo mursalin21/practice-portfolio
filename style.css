@@ -5,6 +5,74 @@ h3{
     font-family: 'Encode Sans SC', sans-serif;
 }
 
-#title-name{
+span{
     color: purple;
+}
+section{
+    padding-bottom: 20%;
+}
+
+body{
+    margin: 0;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+p{
+    text-align: justify;
+}
+
+.flex-container{
+    display: flex;
+}
+#murs1{
+    width: 80%;
+}
+#murs2{
+    width: 80%;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 3%;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.link-button{
+    text-decoration: none;
+    color: purple;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, salmon);
+    font-family: 'Encode Sans SC', sans-serif;
+    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 44%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
+
+#web-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 8;
+}
+
+#baby-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 8;
 }
